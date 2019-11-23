@@ -10,4 +10,6 @@ matrix:
 install:
   - pip install masonite-cli
   - craft install
-script: python -m pytest
+script:
+  cd backend/api-gateway
+  python -m pytest
