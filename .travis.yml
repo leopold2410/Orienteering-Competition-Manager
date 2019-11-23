@@ -9,7 +9,7 @@ matrix:
       dist: xenial
 
 script:
-  cd backend/api-gateway
-  pip install masonite-cli
-  craft install
-  python -m pytest
+  - cd backend/api-gateway
+  - pip install masonite-cli
+  - craft install
+  - python -m pytest
