@@ -1,6 +1,6 @@
 import argparse
 from flask import Flask, jsonify, make_response
-from flask_restful import Api, Resource
+from flask_restplus import Api, Resource
 
 app = Flask(__name__)
 

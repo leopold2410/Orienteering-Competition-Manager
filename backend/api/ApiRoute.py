@@ -1,8 +1,9 @@
 from flask import Blueprint
-from flask_restful import Api
+from flask_restplus import Api
 
 class ApiRoute:
     def __init__(self, version):
+        self.version = version
         self.prefix = '/api/{}'.format(version)
         self.blueprint = Blueprint(self.prefix, __name__)
         self.restApi = Api(self.blueprint)
@@ -17,4 +18,4 @@ class ApiRoute:
         return self.restApi
 
     def register_handler(self, handler, path):
-        self.restApi.add_resource(handler, path)
+        self.restApi.add_resource(handler, path, resource_class_kwargs = {'version':self.version})
