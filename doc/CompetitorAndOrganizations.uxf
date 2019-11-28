@@ -2,21 +2,10 @@
 <diagram program="umlet" version="14.3.0">
   <zoom_level>10</zoom_level>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>480</x>
-      <y>210</y>
-      <w>120</w>
-      <h>200</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>100.0;180.0;100.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>20</y>
+      <x>100</x>
+      <y>0</y>
       <w>210</w>
       <h>100</h>
     </coordinates>
@@ -32,8 +21,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>180</y>
+      <x>100</x>
+      <y>160</y>
       <w>210</w>
       <h>100</h>
     </coordinates>
@@ -49,8 +38,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>180</y>
+      <x>360</x>
+      <y>160</y>
       <w>210</w>
       <h>100</h>
     </coordinates>
@@ -66,14 +55,15 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>550</x>
-      <y>390</y>
+      <x>630</x>
+      <y>370</y>
       <w>210</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>Competitor
 --
 -id: Long
+-identifier: string
 --
 </panel_attributes>
     <additional_attributes/>
@@ -81,8 +71,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>920</x>
-      <y>170</y>
+      <x>1000</x>
+      <y>150</y>
       <w>210</w>
       <h>190</h>
     </coordinates>
@@ -97,8 +87,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1190</x>
-      <y>170</y>
+      <x>1270</x>
+      <y>150</y>
       <w>210</w>
       <h>130</h>
     </coordinates>
@@ -116,8 +106,8 @@ e.g.:
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1090</x>
-      <y>300</y>
+      <x>1170</x>
+      <y>280</y>
       <w>150</w>
       <h>120</h>
     </coordinates>
@@ -128,8 +118,8 @@ parent</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>750</x>
-      <y>310</y>
+      <x>830</x>
+      <y>290</y>
       <w>190</w>
       <h>150</h>
     </coordinates>
@@ -142,8 +132,8 @@ member of &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>220</y>
+      <x>300</x>
+      <y>200</y>
       <w>80</w>
       <h>30</h>
     </coordinates>
@@ -153,8 +143,8 @@ member of &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>100</x>
-      <y>110</y>
+      <x>180</x>
+      <y>90</y>
       <w>30</w>
       <h>90</h>
     </coordinates>
@@ -164,8 +154,8 @@ member of &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>430</x>
-      <y>430</y>
+      <x>510</x>
+      <y>410</y>
       <w>140</w>
       <h>30</h>
     </coordinates>
@@ -175,8 +165,8 @@ member of &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>230</x>
-      <y>370</y>
+      <x>310</x>
+      <y>350</y>
       <w>210</w>
       <h>140</h>
     </coordinates>
@@ -191,5 +181,44 @@ member of &gt;</panel_attributes>
 -
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>720</x>
+      <y>470</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>570</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>ControlCard
+--
+-id: Long
+-identifier: string
+-manufacturer: string
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>200</y>
+      <w>180</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>160.0;170.0;160.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
