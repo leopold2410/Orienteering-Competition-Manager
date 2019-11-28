@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>20</y>
+      <w>230</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Country
+--
+-id: Long
+-iso3166alpha2: string
+-iso3166alpha3: string
+-iso3166num: Long
+-name: string
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>210</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Address
+--
+-id: Long
+-street: string
+-zipCode: string
+-city: string
+-state: string
+-country: Country
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>20</y>
+      <w>230</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Currency
+--
+-id: Long
+-name: string
+-code: string
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>20</y>
+      <w>230</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Amount
+--
+-id: Long
+-value: Long
+-precision: Long
+-currency: Currency
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
