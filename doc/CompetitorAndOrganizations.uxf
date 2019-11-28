@@ -199,13 +199,14 @@ member of &gt;</panel_attributes>
       <x>640</x>
       <y>570</y>
       <w>210</w>
-      <h>80</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes>ControlCard
 --
 -id: Long
 -identifier: string
 -manufacturer: string
+-punching system: string
 --
 </panel_attributes>
     <additional_attributes/>
